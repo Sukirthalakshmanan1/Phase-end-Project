@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project
 {
-    internal class OneDayTeam : ITeam
+    internal class OneDayTeam : Player,ITeam
     {
         public static List<Player> oneDayTeam = new List<Player>();
         Player p = new Player();
